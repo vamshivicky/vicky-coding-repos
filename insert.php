@@ -14,7 +14,7 @@ VALUES (':Question')
 for($count = 0; $count<count($_POST['hidden_Question[]']); $count++)
 {
 	$data = array(
-		':Question'	=>	$_POST['hidden_Question'][$count],
+		':Question'	=>	$_POST['hidden_Question[]'][$count],
 		
 	);
 	$statement = $connect->prepare($query);
