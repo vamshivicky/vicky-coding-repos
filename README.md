@@ -1,1 +1,0 @@
-# vicky-coding-repos
